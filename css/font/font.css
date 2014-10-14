@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "HandbookPro";
+  src: url("PFHandbookPro-Regular.eot?") format("eot"),
+  url("PFHandbookPro-Regular.woff") format("woff"),
+  url("PFHandbookPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HandbookPro-bold";
+  src: url("PFHandbookPro-Bold.eot?") format("eot"),
+  url("PFHandbookPro-Bold.woff") format("woff"),
+  url("PFHandbookPro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HandbookPro-italic";
+  src: url("PFHandbookPro-Italic.eot?") format("eot"),
+  url("PFHandbookPro-Italic.woff") format("woff"),
+  url("PFHandbookPro-Italic.ttf") format("truetype");
+}
