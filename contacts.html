@@ -52,14 +52,14 @@
 				<nav class="head_phone">
 					<a href="tel:+7(861)211-06-09">+7(861)<b>211-06-09</b></a>
 					<a href="tel:+7(861)211-06-09">+7(861)<b>211-06-09</b></a>
-					<a href="#" class="call_me"><span>Перезвоните мне</span></a>
+					<a href="#modal_form" class="fancybox_form call_me"><span>Перезвоните мне</span></a>
 				</nav>
 			</div>
 		</div>	
 	</div>
 </header>
 <!--main-->
-<main class="main_inner">
+<main class="main_inner main_contacts">
 	<div class="inner contacts_wrap">
 		<div class="title">КОНТАКТЫ</div>
 		<div class="contacts_top">
@@ -76,8 +76,12 @@
 				<div><b>e-mail:</b> kubrp@bk.ru</div>
 			</div>
 		</div>
-		<div class="contacts_form">
+	</div>	
+	<div class="contacts_form">
+		<div class="inner">
 			<div class="contacts_form_title"><img src="img/arrow_title.gif" alt=""/><a href="#">ОБРАТНАЯ СВЯЗЬ</a></div>
+			<div class="contacts_form_block">
+			<img src="img/arrow_top.png" alt="" class="contacts_form_close"/>
 			<form action="#">
 				<div>
 					<input type="text" placeholder="Ваше имя"/>
@@ -93,14 +97,16 @@
 					<button>Отправить</button>
 				</div>
 			</form>
+			</div>
 		</div>
+	</div>
 		<div class="contact_map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8969.660538375294!2d37.500865131851626!3d55.80339305324927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRltGP!5e0!3m2!1suk!2sua!4v1413207253516" width="1920" height="470" frameborder="0" style="border:0"></iframe>
 		</div>
-	</div>
+	
 </main>
 <!--footer-->
-<footer class="foot_innerpage">
+<footer class="foot_innerpage foot_contacts">
 	<div class="inner">
 		<nav class="foot_menu">
 			<li><a href="#">жилая недвижимость</a></li>
@@ -122,6 +128,14 @@
 		<div class="fr"><img src="img/counter.png" alt=""/></div>
 	</div>
 </footer>
+<div class="modal_form" id="modal_form">
+	<form action="#">
+		<p>Оставьте ваш номер телефона и наш отдел продаж свяжется с вами</p>
+		<div><input type="text" placeholder="Ваше имя"/></div>
+		<div><input type="text" placeholder="Ваше телефон"/></div>
+		<div><button>Отправить</button></div>
+	</form>
+</div>
 </div>
 </body>
 </html>

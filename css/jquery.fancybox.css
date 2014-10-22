@@ -26,12 +26,8 @@
 
 .fancybox-skin {
 	position: relative;
-	background: #f9f9f9;
 	color: #444;
 	text-shadow: none;
-	-webkit-border-radius: 4px;
-	   -moz-border-radius: 4px;
-	        border-radius: 4px;
 }
 
 .fancybox-opened {
@@ -39,9 +35,7 @@
 }
 
 .fancybox-opened .fancybox-skin {
-	-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-	   -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-	        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+
 }
 
 .fancybox-outer, .fancybox-inner {
@@ -99,12 +93,13 @@
 
 .fancybox-close {
 	position: absolute;
-	top: -18px;
-	right: -18px;
-	width: 36px;
-	height: 36px;
+	top: 31px;
+	right: 33px;
+	width: 30px;
+	height: 28px;
 	cursor: pointer;
 	z-index: 8040;
+	background:url(../img/close.png) no-repeat ;
 }
 
 .fancybox-nav {
@@ -120,11 +115,13 @@
 }
 
 .fancybox-prev {
-	left: 0;
+	left: -75px;
+	background:url(../img/slider_white_left.png) no-repeat center;
 }
 
 .fancybox-next {
-	right: 0;
+	right: -75px;
+	background:url(../img/slider_white_right.png) no-repeat center;
 }
 
 .fancybox-nav span {
@@ -140,16 +137,16 @@
 
 .fancybox-prev span {
 	left: 10px;
-	background-position: 0 -36px;
+	
 }
 
 .fancybox-next span {
 	right: 10px;
-	background-position: 0 -72px;
+	
 }
 
 .fancybox-nav:hover span {
-	visibility: visible;
+	/* visibility: visible; */
 }
 
 .fancybox-tmp {
