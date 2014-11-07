@@ -43,7 +43,7 @@ $(function(){
 	$('img[usemap]').rwdImageMaps();
 
 	/*--------------------------------------------------Додавання маркера на карту-------------------------------------------------------*/
-		$('map area').each(function(){
+		$('map#Map_all area').each(function(){
 			var areaTitle = 'Литер';
 			$(this).after("<div class='area_box' style='top:0px; left:0px;'><div class='area_head'><div class='area_title'>"+areaTitle+"</div><div class='area_number'>"+$(this).attr('class').replace('area','')+"</div></div><div class='area_body'><div></div>");
 		});
@@ -104,7 +104,9 @@ $(function(){
 					'top': (boddmiddle),
 					'left': (bevenmiddle)
 				});
-				
+
+				if ($(this).parent().attr('id')=='Map_all') {
+
 				/*------------------           Зміна позиції інфоблоку             -------------------------*/
 				if ($(this).attr('class').replace('area','') == 1) {
 					$(this).next('.area_box').css({
@@ -134,6 +136,9 @@ $(function(){
 						'top': (boddmax-20)
 					});
 				}
+
+
+				};
 
 				/*------------------           Подія наведденя курсора на активну область карти             -------------------------*/
 				$(this).mouseenter(function(){			

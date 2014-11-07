@@ -1841,3 +1841,35 @@ padding:34px 45px;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	}
+
+.floor_block img {
+	width: 100%;
+	height: auto;
+	margin: 0 10px;
+}
+	.floor_item{
+		position: relative;
+		width: 100%;
+	}
+		.floor_box{
+			position: relative;
+			float: left;
+			line-height: 0;
+		}
+		.floor5{
+			width: 58%;
+		}
+		.floor4{
+			width: 40%;
+		}
+		.floor3{
+			width: 40%;
+		}
+
+.floor_active{
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	visibility: 
+	hidden; z-index: 2;
+}
