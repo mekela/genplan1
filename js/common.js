@@ -14,10 +14,10 @@ $(function(){
 			}
 		}
 	});
-	$(".more_arrow").click(function () {
+	/* $(".more_arrow").click(function () {
       $('main').toggleClass('active');
       $('header').toggleClass('fixed');
-    });
+    }); */
 	$(".fixed_block").click(function () {
       $(this).addClass('active');
       $('#mapwrap').addClass('active');
