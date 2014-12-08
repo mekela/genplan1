@@ -920,7 +920,11 @@ background-size:100% 184px;
 .header_inner.head_about{
 background:url(../img/header_about_bg.jpg) no-repeat top center;
 background-size:100% 184px;
-
+}
+.header_inner.head_about.head_about_bg{
+background:url(../img/about_head.jpg) no-repeat top center;
+background-size:100% 184px;
+top:1px;
 }
 	.header_inner .inner{
 	height:auto;
@@ -1897,3 +1901,77 @@ padding:34px 45px;
 	visibility: 
 	hidden; z-index: 2;
 }
+
+
+
+/*---------------about1------------------*/
+.about_box{
+position:relative;
+overflow:hidden;
+padding:7px 0;
+}
+	.about_box_img{
+	float:left;
+	position:relative;
+	overflow:hidden;
+	padding:0 27px 0 0;
+	}
+	.about_box_txt{
+	position:relative;
+	overflow:hidden;
+	padding:0 140px 0 0;
+	}
+	.about_box_txt_hide{
+	display:none;
+	}
+		.about_box_txt h5{
+		color: #0a2f3d;
+		padding-bottom:17px;
+		font-family: Tahoma;
+		font-size: 18px;
+		text-transform:uppercase;
+		}
+		.about_box_txt p{
+		color: #645c50;
+		line-height:22px;
+		padding-bottom:15px;
+		font-size: 18px;
+		}
+		.about_box_lnk{
+		color:#27728a;
+		cursor:pointer;
+		font-size:16px;
+		}
+			.about_box_lnk a{
+			text-decoration:none;
+			font-size:16px;
+			line-height:20px;
+			bottom:8px;
+			margin-left:9px;
+			position:relative;
+			border-bottom:dashed 1px #27728a;
+			}
+			.about_box_lnk a:hover{
+			border-color:transparent;
+			}
+.ipoteka_logos{
+position:relative;
+overflow:hidden;
+text-align:center;
+}
+	.ipoteka_logos figure{
+	display:inline-block;
+	vertical-align:top;
+	width:250px;
+	margin:0 23px 5px 0;
+	height:236px;
+	background:url(../img/ipoteka_item.jpg) no-repeat top center;
+	}
+		.ipoteka_logos figure img{
+		padding:27px 0 5px 0;
+		}
+		.ipoteka_logos figure a{
+		color:#27728a;
+		font-size:16px;
+		font-family:tahoma;
+		}

@@ -14,6 +14,13 @@ $(function(){
 			}
 		}
 	});
+	
+	//about
+	$(".about_box_lnk").click(function () {
+      $(this).hide();
+       $(this).prev('.about_box_txt_hide').show('slow');
+    });
+	
 	/* $(".more_arrow").click(function () {
       $('main').toggleClass('active');
       $('header').toggleClass('fixed');
